@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poori Recipe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .recipe-header {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .steps {
+            margin: 20px;
+        }
+
+        .step {
+            margin-bottom: 15px;
+        }
+
+        .btn-back {
+            margin-top: 30px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="recipe-header">
+            <h1>Poori Recipe</h1>
+            <p>A popular Indian breakfast dish, poori is a deep-fried bread, soft and fluffy.</p>
+        </div>
+
+        <div class="steps">
+            <h2>Steps to Make Poori</h2>
+
+            <div class="step">
+                <h5><strong>1. Prepare the Dough:</strong></h5>
+                <p>In a mixing bowl, combine whole wheat flour, a pinch of salt, and a little oil. Gradually add water
+                    and knead into a soft dough. Let it rest for 20-30 minutes.</p>
+            </div>
+
+            <div class="step">
+                <h5><strong>2. Roll the Dough:</strong></h5>
+                <p>Divide the dough into small balls and roll each ball into a small, flat circle. Ensure the dough is
+                    evenly rolled to avoid uneven puffing while frying.</p>
+            </div>
+
+            <div class="step">
+                <h5><strong>3. Heat the Oil:</strong></h5>
+                <p>Heat enough oil in a deep frying pan for the pooris to puff up when fried. The oil should be hot
+                    enough but not smoking.</p>
+            </div>
+
+            <div class="step">
+                <h5><strong>4. Fry the Pooris:</strong></h5>
+                <p>Carefully slide each rolled poori into the hot oil. Gently press it with a slotted spoon so it puffs
+                    up. Fry until both sides are golden brown.</p>
+            </div>
+
+            <div class="step">
+                <h5><strong>5. Serve:</strong></h5>
+                <p>Once fried, remove the pooris from the oil and place them on paper towels to absorb excess oil. Serve
+                    hot with curry, chutney, or potato masala.</p>
+            </div>
+        </div>
+
+        <button class="btn btn-dark" onclick="goBack()">Back</button>
+    </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back(); // Navigate back to the previous page
+        }
+    </script>
+</body>
+
+</html>
